@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  ganache:
+    image: trufflesuite/ganache-cli:v6.12.2
+    container_name: blockchain-DataCellar
+    volumes:
+      - ganache-data:/data
+    ports:
+      - "8545:8545"
+    command: ["-s", "1234", "--defaultBalanceEther", "1000", "--db", "/data", "--gasLimit", "8000000000"]
+
+volumes:
+  ganache-data:
