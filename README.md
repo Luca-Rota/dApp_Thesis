@@ -22,6 +22,7 @@ This repository is organized into three main sub-folders, each dedicated to a sp
     - [2. Frontend](#2-frontend)
     - [3. SmartContracts](#3-smartcontracts)
   - [Requirements](#requirements)
+    - [dApp Version](#dapp-version)
   - [Installation](#installation)
   - [Contributions](#contributions)
   - [License](#license)
@@ -92,6 +93,11 @@ v18.17.1
 ```
 Repeat the same command for the other installed packages.
 
+### dApp Version
+
+This version of DataCellar relies on using MetaMask to be able to make transactions to the blockchain through user accounts. 
+
+It is therefore necessary to install the browser extension via the link: [Download MetaMask](https://metamask.io/download/).
 
 ## Installation
 
@@ -105,6 +111,16 @@ git checkout dApp
 ```
 
 Now it is necessary to go to the "backendapis" folder and follow the instructions in the readme of that folder to be able to run the docker and the server.
+
+The complete readme sequence you must follow in order to use this application is:
+
+<p align="center">
+<a href="backendapis/README.md">backendapis README</a><br>
+  ↓<br>
+  <a href="smartcontracts/README.md">smartcontracts README</a><br>
+  ↓<br>
+  <a href="frontend/README.md">frontend README</a>
+</p>
 
 
 ## Contributions
