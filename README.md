@@ -118,7 +118,7 @@ Now it is necessary to go to the "backendapis" folder and follow the instruction
 The complete readme sequence you must follow in order to use this application is:
 
 <p align="center">
-<a href="backendapis/README.md">backendapis README</a><br>
+<a href="backend/README.md">backendapis README</a><br>
   ↓<br>
   <a href="smartcontracts/README.md">smartcontracts README</a><br>
   ↓<br>
